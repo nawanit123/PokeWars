@@ -1,0 +1,8 @@
+.Pokegame {
+  display: flex;
+}
+@media (max-width: 724px) {
+  .Pokegame {
+    display: block;
+  }
+}
