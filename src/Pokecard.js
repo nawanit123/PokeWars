@@ -15,18 +15,18 @@ class Pokecard extends Component {
           {id}
         </p>
         <p className="Pokecard-item">
-          <img src={imageSrc} alt="" />
+          <img className="Pokecard-img" src={imageSrc} alt="" />
         </p>
         <p className="Pokecard-item">
-          <strong>Name </strong>
+          <strong>Name: </strong>
           {name}
         </p>
         <p className="Pokecard-item">
-          <strong>Type </strong>
+          <strong>Type: </strong>
           {type}
         </p>
         <p className="Pokecard-item">
-          <strong>Base_experience </strong>
+          <strong>Exp: </strong>
           {base_experience}
         </p>
       </div>
