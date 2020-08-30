@@ -37,7 +37,6 @@ class Pokegame extends Component {
     }
     const total1 = totalExp(hand1);
     const total2 = totalExp(hand2);
-    console.log(total1, total2);
     const condition = totalExp(hand1) > totalExp(hand2);
 
     return (
