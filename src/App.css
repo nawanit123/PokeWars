@@ -1,3 +1,35 @@
 .App {
-  padding: 2rem;
+  padding: 1rem;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
+button {
+  align-self: center;
+  /* display: inline; */
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 4rem;
+  width: auto;
+  background-color: brown;
+  color: white;
+  margin-bottom: 0.25rem;
+  margin-top: 0.1rem;
+  outline: none;
+  border: none;
+}
+button:hover {
+  transform: scale(1.1);
+  border: 3px solid black;
+}
+/* 
+@media (max-width: 735px) {
+  button {
+    position: fixed;
+    top: 1px;
+    left: 38px;
+    order: -1;
+    padding: 0.5rem;
+  }
+} */

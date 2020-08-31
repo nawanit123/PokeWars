@@ -48,7 +48,13 @@ const fetchPokemon = async () => {
       poke7,
       poke8,
     ]);
-    return promisedData;
+    const mappedArray = promisedData.map((e) => {
+      const { name, id, base_experience } = e.data;
+      let type = [];
+      e.data.types.forEach((e) => type.push(e.type.name));
+      return { name, id, type: type.join(), base_experience };
+    });
+    return mappedArray;
   } catch {
     console.log('Oops!! Something went wrong!!!');
   }
@@ -62,14 +68,6 @@ class App extends Component {
   }
   componentDidMount() {
     fetchPokemon()
-      .then((res) =>
-        res.map((e) => {
-          const { name, id, base_experience } = e.data;
-          let type = [];
-          e.data.types.forEach((e) => type.push(e.type.name));
-          return { name, id, type: type.join(), base_experience };
-        })
-      )
       .then((pokemons) => this.setState({ pokeData: pokemons }))
       .catch((err) => console.log(err));
   }
@@ -77,6 +75,14 @@ class App extends Component {
     const { pokeData } = this.state;
     return (
       <div className="App">
+        <button
+          onClick={() => {
+            // window.location.reload(true);
+            this.componentDidMount();
+          }}
+        >
+          PLAY AGAIN
+        </button>
         <Pokegame pokecards={pokeData} />
       </div>
     );
