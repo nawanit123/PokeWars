@@ -1,22 +1,19 @@
 .Pokecard {
-  border-radius: 5px;
-  margin: 4rem 5px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  width: 200px;
+  height: 290px;
+  border-radius: 5px;
+  font-size: 1rem;
   box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
   transition: all ease 500ms;
 }
 .Pokecard:hover {
   transform: scale(1.1);
-}
-.Pokecard {
-  display: flex;
 }
 
 .Pokecard-item {
@@ -27,6 +24,7 @@
 }
 
 .Pokecard-img {
+  max-width: 140px;
   height: 150px;
   transition: all ease 500ms;
 }
