@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "70e848fda0e01c32b93cffba1f0cd16d",
+    "revision": "bde8e4c86067a3ffea91dcca8d9e28dd",
     "url": "/PokeWars/index.html"
   },
   {
-    "revision": "db9d2562645b397d975a",
-    "url": "/PokeWars/static/css/main.aae2667f.chunk.css"
+    "revision": "bb5ebecc31f4384760d0",
+    "url": "/PokeWars/static/css/main.72b71ef3.chunk.css"
   },
   {
     "revision": "f7deda8ebda8ebd1bde0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/PokeWars/static/js/2.25b5c227.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "db9d2562645b397d975a",
-    "url": "/PokeWars/static/js/main.fd6956df.chunk.js"
+    "revision": "bb5ebecc31f4384760d0",
+    "url": "/PokeWars/static/js/main.2446d007.chunk.js"
   },
   {
     "revision": "bb438b689ef16142beab",

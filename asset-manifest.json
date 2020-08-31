@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/PokeWars/static/css/main.aae2667f.chunk.css",
-    "main.js": "/PokeWars/static/js/main.fd6956df.chunk.js",
-    "main.js.map": "/PokeWars/static/js/main.fd6956df.chunk.js.map",
+    "main.css": "/PokeWars/static/css/main.72b71ef3.chunk.css",
+    "main.js": "/PokeWars/static/js/main.2446d007.chunk.js",
+    "main.js.map": "/PokeWars/static/js/main.2446d007.chunk.js.map",
     "runtime-main.js": "/PokeWars/static/js/runtime-main.3f525f5d.js",
     "runtime-main.js.map": "/PokeWars/static/js/runtime-main.3f525f5d.js.map",
     "static/js/2.25b5c227.chunk.js": "/PokeWars/static/js/2.25b5c227.chunk.js",
     "static/js/2.25b5c227.chunk.js.map": "/PokeWars/static/js/2.25b5c227.chunk.js.map",
     "index.html": "/PokeWars/index.html",
-    "precache-manifest.39db5b27a42ae9f7a1db0cda9da7922f.js": "/PokeWars/precache-manifest.39db5b27a42ae9f7a1db0cda9da7922f.js",
+    "precache-manifest.df711ee5b17d8e89bf8441a7ba752bf7.js": "/PokeWars/precache-manifest.df711ee5b17d8e89bf8441a7ba752bf7.js",
     "service-worker.js": "/PokeWars/service-worker.js",
-    "static/css/main.aae2667f.chunk.css.map": "/PokeWars/static/css/main.aae2667f.chunk.css.map",
+    "static/css/main.72b71ef3.chunk.css.map": "/PokeWars/static/css/main.72b71ef3.chunk.css.map",
     "static/js/2.25b5c227.chunk.js.LICENSE.txt": "/PokeWars/static/js/2.25b5c227.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3f525f5d.js",
     "static/js/2.25b5c227.chunk.js",
-    "static/css/main.aae2667f.chunk.css",
-    "static/js/main.fd6956df.chunk.js"
+    "static/css/main.72b71ef3.chunk.css",
+    "static/js/main.2446d007.chunk.js"
   ]
 }
